@@ -12,9 +12,8 @@ public class Dog extends Animal {
 
 	 public Dog() {
 		super(); // 부모 클래스의 생성자 호출
-		// TODO Auto-generated constructor stub
+		
 	}
-
 
 
 
@@ -22,9 +21,6 @@ public class Dog extends Animal {
 		super(name, age, sound, legCount);
 		// TODO Auto-generated constructor stub
 	}
-
-
-
 
 
 
