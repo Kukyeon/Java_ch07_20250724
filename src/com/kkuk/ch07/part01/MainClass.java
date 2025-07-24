@@ -10,6 +10,8 @@ public class MainClass {
 		rectangle.width = 20;
 		rectangle.recArea = 50.5;
 		
+		Dog dog1 = new Dog();
+		
 	}
 
 }
