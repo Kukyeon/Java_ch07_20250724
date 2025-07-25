@@ -15,4 +15,12 @@ public class Car {
 	Tire forntTire;   // 앞바퀴
 	Tire rearTire;	 // 뒷바퀴
 	
+	// 매개변수의 인수로 금호타이어객체가 들어오면->금호 , 
+	// 한국타이어객체가 들어오면->한국  이런식으로 출력하는 메소드 ↙
+	//타이어의 이름을 출력한다 생각하고....
+	public void tireprintln(Tire tire) { 
+		tire.tireName();
+	}
+	
+	
 }
