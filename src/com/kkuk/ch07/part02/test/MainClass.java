@@ -39,6 +39,7 @@ public class MainClass {
 		
 		/* ----------------업, 다운케스팅 UpCating , DownCasting---------------- */
 		/* ----------------업캐스팅과 다운캐스팅을 사용한 자식 접근 연습---------------- */
+		
 		Animal animal3 = new Cat(); // 업케스팅 UpCating
 		//animal3.eat(); 자식클래스 메서드 접근불가 / 에러발생
 		Cat cat = (Cat) animal3;
